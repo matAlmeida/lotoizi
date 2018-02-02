@@ -1,0 +1,35 @@
+{
+  "name": "lotoizi",
+  "version": "1.0.0",
+  "description": "a facebook messenger bot for lotto results",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo 'Test does not exists'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matAlmeida/lotoizi.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "bot",
+    "lotofacil",
+    "loteria"
+  ],
+  "author": "Matheus Almeida",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matAlmeida/lotoizi/issues"
+  },
+  "homepage": "https://github.com/matAlmeida/lotoizi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
